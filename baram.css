@@ -45,9 +45,14 @@
     background-image: url("https://github.com/leejunho0622/baram/blob/develop/baram/road_stone_1x1.png?raw=true");
 }
 
-#player, #mantis, #scorpion, #rabbit, #npc1, #npc2, #portal {
+#mantis, #scorpion, #rabbit, #npc1, #npc2, #portal {
     position: absolute;
     z-index: 1;
+}
+
+#player {
+    position: absolute;
+    z-index: 2;
 }
 
 #player , #player img {
