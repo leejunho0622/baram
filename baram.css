@@ -25,3 +25,38 @@
     height: 50px;
     background-image: url("https://github.com/leejunho0622/baram/blob/develop/baram/road_stone_1x1.png?raw=true");
 }
+
+#player , #player img {
+    width: 100px;
+    height: 100px;
+}
+
+#mantis, #mantis img {
+    width: 100px;
+    height: 100px;
+}
+
+#scorpion, #scorpion img {
+    width: 100px;
+    height: 100px;
+}
+
+#rabbit, #rabbit img {
+    width: 50px;
+    height: 100px;
+}
+
+#npc1, #npc1 img {
+    width: 100px;
+    height: 100px;
+}
+
+#npc2, #npc2 img {
+    width: 100px;
+    height: 100px;
+}
+
+#portal, #portal img {
+    width: 100px;
+    height: 100px;
+}
