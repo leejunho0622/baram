@@ -30,18 +30,26 @@ function collisionDetection(px, direction) {
     if(direction === "up"){
         for(let i=0; i<entity.length; i++){
             const entityXY = document.getElementById(entity[i]).getBoundingClientRect();
-            if(px.top - 50 === entityXY.top)
+            const size = entity[i] === "rabbit" ? -50 : 0;
+            if((px.top >= entityXY.top && px.top - 50 <= entityXY.top) && (px.left >= entityXY.left + size && px.left <= entityXY.left + 50 + size)){
                 return true;
+            }
         }
     }
     else if(direction == "left"){
-
+        for(let i=0; i<entity.length; i++){
+            const entityXY = document.getElementById(entity[i]).getBoundingClientRect();
+        }
     }
     else if(direction == "down"){
-
+        for(let i=0; i<entity.length; i++){
+            const entityXY = document.getElementById(entity[i]).getBoundingClientRect();
+        }
     }
     else if(direction == "right"){
-
+        for(let i=0; i<entity.length; i++){
+            const entityXY = document.getElementById(entity[i]).getBoundingClientRect();
+        }
     }
     return false;
 }
