@@ -41,6 +41,7 @@
 #screen {
     width: 500px;
     height: 700px;
+    background-color: antiquewhite;
     border-right: solid 5px brown;
     border-top: solid 5px brown;
     border-bottom: solid 5px brown;
@@ -48,11 +49,12 @@
 
 #screen div {
     margin: 20px;
-    border: solid 1px black;
+    border: solid 2px black;
 }
 
 #title {
     height: 40px;
+    background-color: beige;
 }
 
 #title h2 {
@@ -62,10 +64,16 @@
 
 #status {
     height: 450px;
+    background-color: beige;
+}
+
+#status p {
+    overflow: scroll;
 }
 
 #bottom {
     height: 120px;
+    background-color: beige;
 }
 
 #stone {
