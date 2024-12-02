@@ -98,8 +98,8 @@
 }
 
 #mantis, #mantis img {
-    top: 70px;
-    left: 520px;
+    top: 100px;
+    left: 525px;
 
     width: 150px;
     height: 150px;
@@ -107,15 +107,15 @@
 
 #scorpion, #scorpion img {
     top: 50px;
-    left: 80px;
+    left: 75px;
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 #rabbit, #rabbit img {
     top: 500px;
-    left: 170px;
+    left: 175px;
 
     width: 50px;
     height: 100px;
@@ -123,7 +123,7 @@
 
 #npc1, #npc1 img {
     top: 300px;
-    left: 220px;
+    left: 225px;
 
     width: 100px;
     height: 100px;
@@ -131,7 +131,7 @@
 
 #npc2, #npc2 img {
     top: 300px;
-    left: 270px;
+    left: 275px;
 
     width: 100px;
     height: 100px;
