@@ -3,8 +3,11 @@
     padding: 0;
 }
 
-#root{
-    
+#root {
+    width: 1300px;
+    height: 800px;
+
+    display: flex;
 }
 
 #road-width, #road-length {
@@ -32,6 +35,37 @@
     width: 700px;
     height: 700px;
     background-image: url("https://github.com/leejunho0622/baram/blob/develop/baram/road_grass_1x1.png?raw=true");
+    border: solid 5px brown;
+}
+
+#screen {
+    width: 500px;
+    height: 700px;
+    border-right: solid 5px brown;
+    border-top: solid 5px brown;
+    border-bottom: solid 5px brown;
+}
+
+#screen div {
+    margin: 20px;
+    border: solid 1px black;
+}
+
+#title {
+    height: 40px;
+}
+
+#title h2 {
+    margin-top: 4px;
+    text-align: center;
+}
+
+#status {
+    height: 450px;
+}
+
+#bottom {
+    height: 120px;
 }
 
 #stone {
